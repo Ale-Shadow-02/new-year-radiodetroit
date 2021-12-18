@@ -60,14 +60,37 @@
                </div>
                <!--END SONGS-->
             </div>
-            <footer class="footer" id="footer"></footer>
          </div>
-         <div class="player">
-            <!--PLAYER - Блок расположения плеера. Плееры: default, lite, energy или custom (свой плеер) (можно несколько) -->
-            <div id="my_player" class="my_player" data-player="adaptive" data-skin="" data-width=200 data-autoplay=0
-               data-volume=30 data-streamurl="https://myradio24.org/3311"></div>
-            <!--END PLAYER-->
+         <footer class="footer" id="footer">
+            <div class="container">
+               <div class="footer__body">
+                  <div class="footer__body-item footer__item">
+                     <span class="footer__item-title">Информация</span>
+                     <a href="http://gtadetroit.ru/" class="footer__item-link" target="_blank">Сайт проекта</a>
+                     <a href="https://vk.com/gta_detroit" class="footer__item-link">GTA Detroit ВКонтакте</a>
+                     <!-- <a href="#" class="footer__item-link">Реклама</a> -->
+                  </div>
+                  <div class="footer__body-item footer__item">
+                     <span class="footer__item-title">Социальные сети</span>
+                     <a href="https://vk.com/radiodetroit" class="footer__item-link" target="_blank">VK</a>
+                     <!-- <a href="" class="footer__item-link">Telegram</a>
+                     <a href="" class="footer__item-link">Instagram</a> -->
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <div class="copyright">
+            <span class="copyright__text">
+               <script>
+                  document.write("&copy; RADIO DETROIT " + new Date().getFullYear());
+               </script>
+            </span>
          </div>
+         <!--PLAYER - Блок расположения плеера. Плееры: default, lite, energy или custom (свой плеер) (можно несколько) -->
+         <div id="my_player" class="my_player" data-player="adaptive" data-skin="" data-width=200 data-autoplay=0
+            data-volume=30 data-streamurl="https://myradio24.org/3311">
+         </div>
+         <!--END PLAYER-->
       </main>
    </div>
    <!--Этот скрипт должен располагаться в самом низу после всех блоков и не должен повторяться на странице. -->
