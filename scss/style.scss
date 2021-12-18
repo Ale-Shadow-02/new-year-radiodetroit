@@ -1,1 +1,19 @@
 @import "reset";
+
+body {
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+}
+.wrapper {
+   max-width: 1920px;
+   background: #100c01 url("../images/main_bg.png") center center / cover no-repeat;
+   background-attachment: fixed;
+}
+.container {
+   max-width: 1230px;
+   padding: 0px 15px;
+   margin: 0 auto;
+}
+
+@import "main";
