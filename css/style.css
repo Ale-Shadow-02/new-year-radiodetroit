@@ -466,4 +466,8 @@ body {
   .history__singl-link {
     font-size: 16px;
   }
+  .my_player_adaptive .my_artist,
+  .my_player_adaptive .my_songtitle {
+    display: none;
+  }
 }
